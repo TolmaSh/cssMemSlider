@@ -27,7 +27,7 @@ body {
 	font-size: 24px;
 	float:right;
 	position: relative;
-	margin-top:400px;
+	margin-top:420px;
 	z-index: 1000;
 }
 .cr-container label:before{
@@ -192,10 +192,11 @@ body {
 .cr-titles h3 span{
 	z-index: 10000;
 	position: absolute;
-	width: 100%;
+	width: 45%;
+	height: 60px;
 	left: 0px;
 	opacity: 0;
-	bottom: 5%;
+	bottom: 80px;
 }
 
 .cr-titles h3 span{
@@ -231,14 +232,6 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-	.cr-container input{
-		display: inline;
-		width: 24%;
-		margin-top: 350px;
-		z-index: 1000;
-		position: relative;
-	}
-	.cr-container label{
-		display: none;
-	}
+
+
 }
