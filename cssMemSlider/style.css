@@ -231,12 +231,12 @@ body {
 	opacity: 1;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
 	.cr-titles h3 span{
 		font-size: 14px;
 		width: 50%;
 		height: initial;
-		bottom: 30px;
+		bottom: 20px;
 	}
 	.cr-container input.cr-selector-img-2:checked ~ .cr-bgimg,
 .cr-bgimg div span:nth-child(2){
